@@ -1,3 +1,5 @@
 pod 'AFNetworking'
 pod 'JPush-iOS-SDK', '~> 1.8.8'
 pod 'SDWebImage', '~> 3.7.3'
+
+pod 'AddPodTest', '~> 0.0.1'

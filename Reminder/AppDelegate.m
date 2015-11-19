@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import <APService.h>
 #import "ViewController.h"
+#import "BaseTabBarController.h"
+#import "BaseNavigationController.h"
+#import "BaseViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,9 +19,11 @@
 @implementation AppDelegate
 
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+//    BaseViewController *
+//    BaseNavigationController *navController = [BaseNavigationController alloc]initWithRootViewController:<#(nonnull UIViewController *)#>
+    BaseTabBarController *tabBarController = [[BaseTabBarController alloc]init];
     
 //    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 //    self.window.backgroundColor = [UIColor whiteColor];

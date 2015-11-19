@@ -15,6 +15,11 @@
 		5B2067701BF810D000F02B28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B20676F1BF810D000F02B28 /* Assets.xcassets */; };
 		5B2067731BF810D000F02B28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B2067711BF810D000F02B28 /* LaunchScreen.storyboard */; };
 		5B20677C1BF81B1D00F02B28 /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B20677B1BF81B1D00F02B28 /* PushConfig.plist */; };
+		5BE3D3081BFDB3CE00030578 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D3071BFDB3CE00030578 /* BaseViewController.m */; };
+		5BE3D30B1BFDB40600030578 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D30A1BFDB40600030578 /* BaseNavigationController.m */; };
+		5BE3D30E1BFDB43900030578 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D30D1BFDB43900030578 /* BaseTabBarController.m */; };
+		5BE3D3121BFDB48900030578 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D3101BFDB48900030578 /* HomeViewController.m */; };
+		5BE3D3131BFDB48900030578 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D3111BFDB48900030578 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,15 @@
 		5B2067721BF810D000F02B28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B2067741BF810D000F02B28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B20677B1BF81B1D00F02B28 /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
+		5BE3D3061BFDB3CE00030578 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		5BE3D3071BFDB3CE00030578 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		5BE3D3091BFDB40600030578 /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		5BE3D30A1BFDB40600030578 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		5BE3D30C1BFDB43900030578 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		5BE3D30D1BFDB43900030578 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		5BE3D30F1BFDB48900030578 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5BE3D3101BFDB48900030578 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5BE3D3111BFDB48900030578 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		5D514F182D1F21AADE1CF27C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ACEA569F090A9C184F267FDC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +81,7 @@
 		5B2067621BF810D000F02B28 /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				5BE3D3031BFDB38E00030578 /* Classes */,
 				5B20677A1BF81AF000F02B28 /* Resource */,
 				5B2067661BF810D000F02B28 /* AppDelegate.h */,
 				5B2067671BF810D000F02B28 /* AppDelegate.m */,
@@ -95,6 +110,38 @@
 				5B20677B1BF81B1D00F02B28 /* PushConfig.plist */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		5BE3D3031BFDB38E00030578 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3D3051BFDB3B400030578 /* Base */,
+				5BE3D3041BFDB38E00030578 /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5BE3D3041BFDB38E00030578 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3D30F1BFDB48900030578 /* HomeViewController.h */,
+				5BE3D3101BFDB48900030578 /* HomeViewController.m */,
+				5BE3D3111BFDB48900030578 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5BE3D3051BFDB3B400030578 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5BE3D3061BFDB3CE00030578 /* BaseViewController.h */,
+				5BE3D3071BFDB3CE00030578 /* BaseViewController.m */,
+				5BE3D3091BFDB40600030578 /* BaseNavigationController.h */,
+				5BE3D30A1BFDB40600030578 /* BaseNavigationController.m */,
+				5BE3D30C1BFDB43900030578 /* BaseTabBarController.h */,
+				5BE3D30D1BFDB43900030578 /* BaseTabBarController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		BDBF1B71CF58030CB4E837F2 /* Pods */ = {
@@ -153,6 +200,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
 						};
 					};
 				};
@@ -182,6 +232,7 @@
 			files = (
 				5B20677C1BF81B1D00F02B28 /* PushConfig.plist in Resources */,
 				5B2067731BF810D000F02B28 /* LaunchScreen.storyboard in Resources */,
+				5BE3D3131BFDB48900030578 /* HomeViewController.xib in Resources */,
 				5B2067701BF810D000F02B28 /* Assets.xcassets in Resources */,
 				5B20676E1BF810D000F02B28 /* Main.storyboard in Resources */,
 			);
@@ -243,7 +294,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B20676B1BF810D000F02B28 /* ViewController.m in Sources */,
+				5BE3D30B1BFDB40600030578 /* BaseNavigationController.m in Sources */,
+				5BE3D3081BFDB3CE00030578 /* BaseViewController.m in Sources */,
 				5B2067681BF810D000F02B28 /* AppDelegate.m in Sources */,
+				5BE3D30E1BFDB43900030578 /* BaseTabBarController.m in Sources */,
+				5BE3D3121BFDB48900030578 /* HomeViewController.m in Sources */,
 				5B2067651BF810D000F02B28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

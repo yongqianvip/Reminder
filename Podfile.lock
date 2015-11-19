@@ -1,4 +1,5 @@
 PODS:
+  - AddPodTest (0.0.3)
   - AFNetworking (2.6.3):
     - AFNetworking/NSURLConnection (= 2.6.3)
     - AFNetworking/NSURLSession (= 2.6.3)
@@ -26,11 +27,13 @@ PODS:
   - SDWebImage/Core (3.7.3)
 
 DEPENDENCIES:
+  - AddPodTest (~> 0.0.1)
   - AFNetworking
   - JPush-iOS-SDK (~> 1.8.8)
   - SDWebImage (~> 3.7.3)
 
 SPEC CHECKSUMS:
+  AddPodTest: 96964513c7a316e49a9a5e8a92dd5ea389ba7de8
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   JPush-iOS-SDK: d4c097d8abbdd0837e24d44b41aacf64a6feddfd
   SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
