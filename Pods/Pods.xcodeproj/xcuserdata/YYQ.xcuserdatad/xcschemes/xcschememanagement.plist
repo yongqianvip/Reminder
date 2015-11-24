@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>AddPodTest.xcscheme</key>
+		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -24,6 +24,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>iOS_Category.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -32,17 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D1257A6A3A35E3B1458103ED35A9AED</key>
+		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5D5BE5C1EF9CF73BD83A10C3F8FCB2D6</key>
+		<key>92CA1E62463FF3F689163A5381987D37</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7EB2B9F1EBB4D1B90C635ECE81004866</key>
+		<key>E5BA90358E7AA643F9344BD9F62E78A9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE74ACB53A42DDE675E8DC59572A30E3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

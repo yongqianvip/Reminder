@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1765867A659CF0538B977238 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CA3D34EEA21B1C85A0419D /* libPods.a */; };
+		5B1DB79B1C003C3D00712397 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DB7991C003C3D00712397 /* MapViewController.m */; };
+		5B1DB79C1C003C3D00712397 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1DB79A1C003C3D00712397 /* MapViewController.xib */; };
+		5B1DE4321BFF05D100C36E16 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B1DE4301BFF05D100C36E16 /* FirstViewController.m */; };
+		5B1DE4331BFF05D100C36E16 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B1DE4311BFF05D100C36E16 /* FirstViewController.xib */; };
+		5B20105E1C03092D00492434 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B20105C1C03092D00492434 /* SecondViewController.m */; };
+		5B20105F1C03092D00492434 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B20105D1C03092D00492434 /* SecondViewController.xib */; };
+		5B2010631C03094300492434 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2010611C03094300492434 /* ThirdViewController.m */; };
+		5B2010641C03094300492434 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2010621C03094300492434 /* ThirdViewController.xib */; };
+		5B2010681C030DEF00492434 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2010661C030DEF00492434 /* FourthViewController.m */; };
+		5B2010691C030DEF00492434 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B2010671C030DEF00492434 /* FourthViewController.xib */; };
 		5B2067651BF810D000F02B28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2067641BF810D000F02B28 /* main.m */; };
 		5B2067681BF810D000F02B28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B2067671BF810D000F02B28 /* AppDelegate.m */; };
 		5B20676B1BF810D000F02B28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B20676A1BF810D000F02B28 /* ViewController.m */; };
@@ -18,12 +28,25 @@
 		5BE3D3081BFDB3CE00030578 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D3071BFDB3CE00030578 /* BaseViewController.m */; };
 		5BE3D30B1BFDB40600030578 /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D30A1BFDB40600030578 /* BaseNavigationController.m */; };
 		5BE3D30E1BFDB43900030578 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D30D1BFDB43900030578 /* BaseTabBarController.m */; };
-		5BE3D3121BFDB48900030578 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE3D3101BFDB48900030578 /* HomeViewController.m */; };
-		5BE3D3131BFDB48900030578 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE3D3111BFDB48900030578 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18CA3D34EEA21B1C85A0419D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1DB7981C003C3D00712397 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		5B1DB7991C003C3D00712397 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		5B1DB79A1C003C3D00712397 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		5B1DE42F1BFF05D100C36E16 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5B1DE4301BFF05D100C36E16 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5B1DE4311BFF05D100C36E16 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		5B20105B1C03092D00492434 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5B20105C1C03092D00492434 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5B20105D1C03092D00492434 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		5B2010601C03094300492434 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5B2010611C03094300492434 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5B2010621C03094300492434 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		5B2010651C030DEF00492434 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		5B2010661C030DEF00492434 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		5B2010671C030DEF00492434 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		5B2067601BF810D000F02B28 /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2067641BF810D000F02B28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5B2067661BF810D000F02B28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,9 +64,6 @@
 		5BE3D30A1BFDB40600030578 /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		5BE3D30C1BFDB43900030578 /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
 		5BE3D30D1BFDB43900030578 /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
-		5BE3D30F1BFDB48900030578 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		5BE3D3101BFDB48900030578 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
-		5BE3D3111BFDB48900030578 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		5D514F182D1F21AADE1CF27C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		ACEA569F090A9C184F267FDC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B1DB7971C003C2B00712397 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				5B1DB7981C003C3D00712397 /* MapViewController.h */,
+				5B1DB7991C003C3D00712397 /* MapViewController.m */,
+				5B1DB79A1C003C3D00712397 /* MapViewController.xib */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		5B2067571BF810D000F02B28 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +145,7 @@
 		5BE3D3031BFDB38E00030578 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5B1DB7971C003C2B00712397 /* Map */,
 				5BE3D3051BFDB3B400030578 /* Base */,
 				5BE3D3041BFDB38E00030578 /* Home */,
 			);
@@ -124,9 +155,18 @@
 		5BE3D3041BFDB38E00030578 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				5BE3D30F1BFDB48900030578 /* HomeViewController.h */,
-				5BE3D3101BFDB48900030578 /* HomeViewController.m */,
-				5BE3D3111BFDB48900030578 /* HomeViewController.xib */,
+				5B1DE42F1BFF05D100C36E16 /* FirstViewController.h */,
+				5B1DE4301BFF05D100C36E16 /* FirstViewController.m */,
+				5B1DE4311BFF05D100C36E16 /* FirstViewController.xib */,
+				5B20105B1C03092D00492434 /* SecondViewController.h */,
+				5B20105C1C03092D00492434 /* SecondViewController.m */,
+				5B20105D1C03092D00492434 /* SecondViewController.xib */,
+				5B2010601C03094300492434 /* ThirdViewController.h */,
+				5B2010611C03094300492434 /* ThirdViewController.m */,
+				5B2010621C03094300492434 /* ThirdViewController.xib */,
+				5B2010651C030DEF00492434 /* FourthViewController.h */,
+				5B2010661C030DEF00492434 /* FourthViewController.m */,
+				5B2010671C030DEF00492434 /* FourthViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -231,9 +271,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B20677C1BF81B1D00F02B28 /* PushConfig.plist in Resources */,
+				5B20105F1C03092D00492434 /* SecondViewController.xib in Resources */,
+				5B2010641C03094300492434 /* ThirdViewController.xib in Resources */,
+				5B1DB79C1C003C3D00712397 /* MapViewController.xib in Resources */,
 				5B2067731BF810D000F02B28 /* LaunchScreen.storyboard in Resources */,
-				5BE3D3131BFDB48900030578 /* HomeViewController.xib in Resources */,
 				5B2067701BF810D000F02B28 /* Assets.xcassets in Resources */,
+				5B1DE4331BFF05D100C36E16 /* FirstViewController.xib in Resources */,
+				5B2010691C030DEF00492434 /* FourthViewController.xib in Resources */,
 				5B20676E1BF810D000F02B28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,12 +337,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B20105E1C03092D00492434 /* SecondViewController.m in Sources */,
 				5B20676B1BF810D000F02B28 /* ViewController.m in Sources */,
 				5BE3D30B1BFDB40600030578 /* BaseNavigationController.m in Sources */,
 				5BE3D3081BFDB3CE00030578 /* BaseViewController.m in Sources */,
+				5B1DB79B1C003C3D00712397 /* MapViewController.m in Sources */,
+				5B2010681C030DEF00492434 /* FourthViewController.m in Sources */,
 				5B2067681BF810D000F02B28 /* AppDelegate.m in Sources */,
+				5B2010631C03094300492434 /* ThirdViewController.m in Sources */,
 				5BE3D30E1BFDB43900030578 /* BaseTabBarController.m in Sources */,
-				5BE3D3121BFDB48900030578 /* HomeViewController.m in Sources */,
+				5B1DE4321BFF05D100C36E16 /* FirstViewController.m in Sources */,
 				5B2067651BF810D000F02B28 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

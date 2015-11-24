@@ -11,7 +11,8 @@
 #import "ViewController.h"
 #import "BaseTabBarController.h"
 #import "BaseNavigationController.h"
-#import "BaseViewController.h"
+#import "FirstViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -21,13 +22,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-//    BaseViewController *
-//    BaseNavigationController *navController = [BaseNavigationController alloc]initWithRootViewController:<#(nonnull UIViewController *)#>
-    BaseTabBarController *tabBarController = [[BaseTabBarController alloc]init];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+
+    FirstViewController *homeVC = [[FirstViewController alloc]initWithNibName:@"FirstViewController" bundle:[NSBundle mainBundle]];
     
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    [self.window makeKeyAndVisible];
+    BaseNavigationController *navController = [[BaseNavigationController alloc]initWithRootViewController:homeVC];
+    BaseTabBarController *tabBarController = [[BaseTabBarController alloc]init];
+    tabBarController.viewControllers = @[navController];
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    
     
     // Required
     if ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0) {

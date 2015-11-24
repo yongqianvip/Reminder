@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <SDWebImage/UIImage+GIF.h>
-#import <YYQCategory.h>
+//#import <YYQCategory.h>
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *gifImageView;
@@ -21,10 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSArray *array = @[@"1",@"2",@"3",@"4"];
-    [array each:^(id object) {
-        
-    }];
+//    NSArray *array = @[@"1",@"2",@"3",@"4"];
+//    [array each:^(id object) {
+//        
+//    }];
     
     
     // Do any additional setup after loading the view, typically from a nib.

@@ -1,22 +1,23 @@
 //
-//  HomeViewController.m
+//  FourthViewController.m
 //  Reminder
 //
-//  Created by YYQ on 15/11/19.
+//  Created by YYQ on 15/11/23.
 //  Copyright © 2015年 YYQ. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "FourthViewController.h"
 
-@interface HomeViewController ()
+@interface FourthViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation FourthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
 }
 
 - (void)didReceiveMemoryWarning {
